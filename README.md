@@ -8,15 +8,15 @@ In recent years, there has been an increase in the number of healthy recipe plat
 
 This project endeavors to refine the flexibility of meal plan recommender systems by balancing the objectives of nutritional goals and recipe preferences. Nutritional meal plans are optimized from user-personalized recipe collections, creating preference-aware suggestions. Not everyone is a nutritionist, and some individuals don't mind making partial sacrifices in nutritional goals if they can continue to enjoy the foods they love.
 
-The technical focus and novelty of this project is the development of dynamic, user-driven models for wide ranges of nutritional objectives and taste preferences. Ultimately, we aim to produce a recommender system that can be utilized to generate meal plans that are both nutritional and highly personalized.
+The technical focus and novelty of this project is the development of dynamic, user-driven models for wide ranges of nutritional objectives and taste preferences. Ultimately, I aim to produce a recommender system that can be utilized to generate meal plans that are both nutritional and highly personalized.
 
 ## Features
 
 - Multi-objective optimization using genetic algorithms
-- User preference weighting system
+- User preference weighting system (taste vs nutrition goals)
+- Generates macro objectives based on personal characteristics (age, height, gender, .., weight targets) 
 - Support for different diet types (balanced, low-fat, low-carb, high-protein)
 - Interactive GUI for user input and meal plan visualization
-- Personalized recipe recommendations based on user ratings
 - Macro nutrient optimization (protein, fat, carbohydrates)
 
 ## Installation
